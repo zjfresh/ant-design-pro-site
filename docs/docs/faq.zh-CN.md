@@ -194,7 +194,7 @@ $ umi-serve
 
 ### 如何代理到后端服务器？
 
-Ant Design Pro 内置了 umi，umi 使用了 [webpack-dev-server](https://webpack.docschina.org/configuration/dev-server/) 来代理网络骑牛。你可以在 `config.js` 中配置 `proxy` 属性。`proxy` 和 `mock` 如果路径相同会优先使用 mock，如果不想使用 mock 可以用 `MOCK=none umi dev` 的方式关闭。
+Ant Design Pro 内置了 umi，umi 使用了 [webpack-dev-server](https://webpack.docschina.org/configuration/dev-server/) 来代理网络请求。你可以在 `config.js` 中配置 `proxy` 属性。`proxy` 和 `mock` 如果路径相同会优先使用 mock，如果不想使用 mock 可以用 `MOCK=none umi dev` 的方式关闭。
 
 ```tsx | pure
 {
